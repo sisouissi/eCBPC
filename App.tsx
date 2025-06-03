@@ -408,7 +408,9 @@ const App: React.FC = () => {
       <footer className="mt-12 text-center text-sm text-slate-500 space-y-1">
         <p>© 2025 CBPC Decision Support Tool, développé par Dr Zouhair Souissi</p>
         <p>Cet outil ne se substitue pas à l'avis médical professionnel ni aux recommandations des sociétés savantes.</p>
-        <p>Application inspirée de la 21ème édition des Référentiels Auvergne Rhône-Alpes en oncologie thoracique 2025.</p>
+        <p>
+          Application inspirée de la <a href="https://referentiels-aristot.com/wp-content/uploads/02_CBPC_2025.pdf" target="_blank" rel="noopener noreferrer" className="text-sky-600 hover:text-sky-800 underline">21ème édition des Référentiels Auvergne Rhône-Alpes en oncologie thoracique 2025</a>.
+        </p>
       </footer>
     </div>
   );
