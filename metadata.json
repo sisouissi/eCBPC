@@ -1,0 +1,5 @@
+{
+  "name": "CBPC Decision Support Tool",
+  "description": "An application to assist with therapeutic decision-making for Small Cell Lung Cancer (SCLC), guiding through patient evaluation, staging, treatment information, and generating recommendations.",
+  "requestFramePermissions": []
+}

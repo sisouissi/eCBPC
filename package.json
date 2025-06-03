@@ -1,0 +1,18 @@
+
+{
+  "name": "cbpc-decision-tool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.511.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/index.html && cp metadata.json dist/metadata.json && esbuild index.tsx --bundle --outfile=dist/bundle.js --jsx=automatic --platform=browser --format=esm --minify --sourcemap=external --loader:.tsx=tsx --define:process.env.API_KEY=\\\"\"$API_KEY\\\"\""
+  }
+}
